@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43e1bba9-cdc0-42b6-a514-56196ca21620" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-14T182531.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Semicolon/Africa/NoteManagement/Dtos/request/LoginUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Semicolon/Africa/NoteManagement/Dtos/request/LoginUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Semicolon/Africa/NoteManagement/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Semicolon/Africa/NoteManagement/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Semicolon/Africa/NoteManagement/ServicesTest/NoteServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Semicolon/Africa/NoteManagement/ServicesTest/NoteServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTTP Public Environment File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eYN2uLRRCRxIYhxwhTsqJQKjLZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "JUnit.NoteServiceImplTest.registerMoreThanOneUser_MoreUserIsLogin_MoreCreateANote_ShareNote.executor": "Run",
+    "JUnit.UserServiceImpTest.executor": "Run",
+    "JUnit.UserServiceImpTest.testThatUserCanRegisterOnce.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "Spring Boot.Main.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/NoteManagement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Semicolon.Africa.NoteManagement.Exception" />
+      <recent name="Semicolon.Africa.NoteManagement.Dtos.request" />
+      <recent name="Semicolon.Africa.NoteManagement.Dtos.response" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Semicolon.Africa.NoteManagement.ServicesTest" />
+      <recent name="Semicolon.Africa.NoteManagement.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NoteServiceImplTest.registerMoreThanOneUser_MoreUserIsLogin_MoreCreateANote_ShareNote">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="NoteServiceImplTest.registerMoreThanOneUser_MoreUserIsLogin_MoreCreateANote_ShareNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NoteManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Semicolon.Africa.NoteManagement.ServicesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Semicolon.Africa.NoteManagement.ServicesTest" />
+      <option name="MAIN_CLASS_NAME" value="Semicolon.Africa.NoteManagement.ServicesTest.NoteServiceImplTest" />
+      <option name="METHOD_NAME" value="registerMoreThanOneUser_MoreUserIsLogin_MoreCreateANote_ShareNote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NoteManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Semicolon.Africa.NoteManagement.ServicesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Semicolon.Africa.NoteManagement.ServicesTest" />
+      <option name="MAIN_CLASS_NAME" value="Semicolon.Africa.NoteManagement.ServicesTest.UserServiceImpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="NoteManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Semicolon.Africa.NoteManagement.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Semicolon.Africa.NoteManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NoteServiceImplTest.registerMoreThanOneUser_MoreUserIsLogin_MoreCreateANote_ShareNote" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="JUnit.UserServiceImpTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43e1bba9-cdc0-42b6-a514-56196ca21620" name="Changes" comment="" />
+      <created>1712077351681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712077351681</updated>
+      <workItem from="1712077352703" duration="2768000" />
+      <workItem from="1712287160412" duration="735000" />
+      <workItem from="1712382011657" duration="16002000" />
+      <workItem from="1712493647328" duration="593000" />
+      <workItem from="1712498309341" duration="88000" />
+      <workItem from="1712506251791" duration="542000" />
+      <workItem from="1712507202064" duration="105000" />
+      <workItem from="1712509387600" duration="33553000" />
+      <workItem from="1712766319802" duration="3879000" />
+      <workItem from="1712772517285" duration="16000" />
+      <workItem from="1712913786516" duration="19259000" />
+      <workItem from="1713018749848" duration="1117000" />
+      <workItem from="1713022074035" duration="18617000" />
+      <workItem from="1713112602148" duration="27631000" />
+      <workItem from="1713208878037" duration="10462000" />
+      <workItem from="1713254077624" duration="628000" />
+      <workItem from="1713288504497" duration="18498000" />
+      <workItem from="1713472403999" duration="42000" />
+      <workItem from="1713513622527" duration="476000" />
+      <workItem from="1713810338747" duration="2935000" />
+      <workItem from="1714028360276" duration="18000" />
+      <workItem from="1714672476983" duration="1770000" />
+      <workItem from="1714689475685" duration="4443000" />
+      <workItem from="1714753154192" duration="410000" />
+      <workItem from="1714842482624" duration="28000" />
+      <workItem from="1714907841873" duration="13469000" />
+      <workItem from="1714993454673" duration="1071000" />
+      <workItem from="1715432723836" duration="6234000" />
+      <workItem from="1715603502419" duration="6054000" />
+      <workItem from="1715689251707" duration="894000" />
+      <workItem from="1715764735166" duration="2507000" />
+      <workItem from="1715792416841" duration="729000" />
+      <workItem from="1715880940232" duration="45000" />
+      <workItem from="1715885524377" duration="20072000" />
+      <workItem from="1715948212748" duration="4050000" />
+      <workItem from="1716012177001" duration="1192000" />
+      <workItem from="1716209149609" duration="590000" />
+      <workItem from="1716270162345" duration="1490000" />
+      <workItem from="1717507144435" duration="387000" />
+      <workItem from="1717508836739" duration="65000" />
+      <workItem from="1717522460489" duration="1376000" />
+      <workItem from="1717527207505" duration="1934000" />
+      <workItem from="1717559724222" duration="927000" />
+      <workItem from="1717560918782" duration="2933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Semicolon/Africa/NoteManagement/ServicesTest/UserServiceImpTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

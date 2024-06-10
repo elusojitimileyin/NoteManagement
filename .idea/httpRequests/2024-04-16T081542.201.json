@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": "661c5074b9430b731a0b5b1d",
+      "firstName": "Elu",
+      "lastName": "Tim",
+      "username": "user",
+      "password": "password",
+      "notes": [],
+      "dateRegistered": "2024-04-14T22:53:56.535",
+      "dateUpdated": "2024-04-14T22:53:56.535",
+      "loggedIn": true
+    },
+    {
+      "id": "661d8066a3bbd409a2296963",
+      "firstName": null,
+      "lastName": null,
+      "username": "ass",
+      "password": "1111",
+      "notes": [],
+      "dateRegistered": "2024-04-15T20:30:46.815",
+      "dateUpdated": "2024-04-15T20:30:46.815",
+      "loggedIn": true
+    },
+    {
+      "id": "661e1a5e9bbc2c048f0ac130",
+      "firstName": null,
+      "lastName": null,
+      "username": "goods",
+      "password": "1111",
+      "notes": [],
+      "dateRegistered": "2024-04-16T07:31:47.636",
+      "dateUpdated": "2024-04-16T07:27:42.052",
+      "loggedIn": true
+    }
+  ],
+  "successful": true
+}

@@ -1,0 +1,800 @@
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "timi",
+  "password": "@Twi1234"
+}
+
+<> 2024-06-05T051037.201.json
+
+###
+
+DELETE http://localhost:9009/api/Note/delete_note
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-04-16T082546.400.json
+
+###
+
+GET http://localhost:9009/api/NoteManagement/get_user
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-04-16T081542.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 103
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"firstName": "aa",
+  "lastName": "bb",
+  "username": "goods",
+  "userId": "661e1a5e9bbc2c048f0ac130"
+}
+
+<> 2024-04-16T073147.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 102
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"firstName": "aa",
+  "lastName": "bb",
+  "username": "good",
+  "userId": "661e1a5e9bbc2c048f0ac130"
+}
+
+<> 2024-04-16T073105.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 44
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{  "username": "good",
+  "password": "1111"}
+
+<> 2024-04-16T072830.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 83
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "a",
+  "lastName": "b",
+  "username": "good",
+  "password": "1111"
+}
+
+<> 2024-04-16T072742.201.json
+
+###
+
+GET http://localhost:9009/api/NoteManagement/get_user
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-04-16T072453.201.json
+
+###
+
+PATCH http://localhost:9009/api/Note/share_note
+Content-Type: application/json
+Content-Length: 117
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "RecipientUsername": "ass",
+  "SenderUsername": "user",
+  "title": "we are good",
+  "content": "best to create"
+}
+
+<> 2024-04-16T072355.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 164
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+ "noteId": "661d8ae6f7b88f6cbb60d24b",
+"username" :"ass",
+"title" : "we are good to go",
+"content" : "best thing created",
+"userId" : "661d8066a3bbd409a2296963"
+}
+
+<> 2024-04-15T212118.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 165
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+ "noteId": "661d8ae6f7b88f6cbb60d24b",
+"username" :"asss",
+"title" : "we are good to go",
+"content" : "best thing created",
+"userId" : "661d8066a3bbd409a2296963"
+}
+
+<> 2024-04-15T212109.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 164
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+ "noteId": "661d8ae6f7b88f6cbb60d24b",
+"username" :"ass",
+"title" : "we are good to go",
+"content" : "best thing created",
+"userId" : "661d8066a3bbd409a2296963"
+}
+
+<> 2024-04-15T212042.400.json
+
+###
+
+POST http://localhost:9009/api/Note/create_note
+Content-Type: application/json
+Content-Length: 80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "title": "we are good",
+  "content": "best to create"
+}
+
+<> 2024-04-15T211534.201.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "content": "best things",
+  "noteId": "661d8535f7b88f6cbb60d24a",
+  "title": "we have more than",
+  "userId": "661d8066a3bbd409a2296963"
+}
+
+<> 2024-04-15T211409.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 151
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "content": "best thing",
+  "noteId": "661d8535f7b88f6cbb60d24a",
+  "title": "we have",
+  "userId": "661d8066a3bbd409a2296963"}
+
+<> 2024-04-15T211154.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "content": "best",
+  "noteId": "661d8535f7b88f6cbb60d24a",
+  "title": "we",
+  "userId": "661d8066a3bbd409a2296963"}
+
+<> 2024-04-15T210029.201.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 143
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "title": "we",
+  "userId": "661d8066a3bbd409a2296963",
+"content": "best guess",
+"noteId": "661d8535f7b88f6cbb60d24a"
+}
+
+<> 2024-04-15T205409.400.json
+
+###
+
+POST http://localhost:9009/api/Note/create_note
+Content-Type: application/json
+Content-Length: 61
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "ass",
+  "title": "we",
+  "content": "best"
+}
+
+<> 2024-04-15T205117.201.json
+
+###
+
+GET http://localhost:9009/api/NoteManagement/users/value
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-04-15T204629.500.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 42
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "ass",
+  "password": "1111" }
+
+<> 2024-04-15T203135.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 82
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstname": "a",
+  "lastname": "b",
+  "username": "ass",
+  "password": "1111" }
+
+<> 2024-04-15T203046.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "username",
+  "password": "password"
+}
+
+<> 2024-04-14T212109.400.json
+
+###
+
+POST http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "username",
+  "content": "god class object",
+  "title": "chi name",
+  "noteId": "661c30ce87cb356760a09b2d",
+  "userId":"661c2bc187cb356760a09b2c"
+}
+
+<> 2024-04-14T204446.405.json
+
+###
+
+POST http://localhost:9009/api/Note/create_note
+Content-Type: application/json
+Content-Length: 72
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "username",
+  "content": "god class",
+  "title": "chi"
+}
+
+<> 2024-04-14T204356.400.json
+
+###
+
+PATCH http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 159
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "username",
+  "content": "god class object",
+  "title": "chi ",
+  "noteId": "661c30ce87cb356760a09b2d",
+  "userId":"661c2bc187cb356760a09b2c"
+}
+
+<> 2024-04-14T204308.400.json
+
+###
+
+POST http://localhost:9009/api/Note/edit_note
+Content-Type: application/json
+Content-Length: 159
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "username",
+  "content": "god class object",
+  "title": "chi ",
+  "noteId": "661c30ce87cb356760a09b2d",
+  "userId":"661c2bc187cb356760a09b2c"
+}
+
+<> 2024-04-14T204149.405.json
+
+###
+
+POST http://localhost:9009/api/Note/create_note
+Content-Type: application/json
+Content-Length: 72
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "username",
+  "content": "god class",
+  "title": "chi"
+}
+
+<> 2024-04-14T203854.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 108
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstname": "Elu",
+  "lastname": "Tim",
+  "username": "username",
+  "userId":"661c2bc187cb356760a09b2c" }
+
+<> 2024-04-14T202942.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 108
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elu",
+  "lastName": "Tim",
+  "username": "username",
+  "userId":"661c2bc187cb356760a09b2c" }
+
+<> 2024-04-14T202709.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 99
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "username",
+  "password": "password"}
+
+<> 2024-04-14T201721.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "obantu3",
+  "password": "1111"}
+
+<> 2024-04-14T193027.500.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "obantu3",
+  "password": "1111"}
+
+<> 2024-04-14T192956.500.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 96
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji3",
+  "lastName": "Timi3",
+  "username": "obantu3",
+  "password": "1111"}
+
+<> 2024-04-14T192911.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/logout
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "oba"}
+
+<> 2024-04-14T192725.400.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 108
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "oba",
+  "userId": "661c1a03b085f30243e15f4d"}
+
+<> 2024-04-14T190507.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "obantu",
+  "userId": "661c1a03b085f30243e15f4d"}
+
+<> 2024-04-14T190447.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 112
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "obantu2",
+  "userId": "661c1a03b085f30243e15f4d"}
+
+<> 2024-04-14T190425.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji2",
+  "lastName": "Timi2",
+  "username": "obantu2",
+  "userId": "661c1a03b085f30243e15f4d"}
+
+<> 2024-04-14T190401.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "username": "obantu2",
+  "password": "1111"}
+
+<> 2024-04-14T190214.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 96
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{ "firstName": "Elusoji2",
+  "lastName": "Timi2",
+  "username": "obantu2",
+  "password": "1111"}
+
+<> 2024-04-14T190139.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 117
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstName": "Elusoji2",
+  "lastName": "Timi2",
+  "username": "obantu2",
+  "userId": "661c15d62093d86d0ace6f64"
+}
+
+<> 2024-04-14T190023.400.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 115
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "obantu1",
+  "userId": "661c15d62093d86d0ace6f64"
+}
+
+<> 2024-04-14T185416.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 115
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstName": "Elusoji",
+  "lastName": "Timi",
+  "username": "obantu1",
+  "userId": "661c15d62093d86d0ace6f64"
+}
+
+<> 2024-04-14T185031.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/update
+Content-Type: application/json
+Content-Length: 120
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstName": "Elusoji",
+  "lastName": "Timileyin",
+  "username": "obantu1",
+  "userId": "661c15d62093d86d0ace6f64"
+}
+
+<> 2024-04-14T185010.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "obantu1",
+  "password": "1234"}
+
+<> 2024-04-14T184852.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "obantu1",
+  "password": "1234"}
+
+<> 2024-04-14T184649.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/logout
+Content-Type: application/json
+Content-Length: 27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "obantu1"
+}
+
+<> 2024-04-14T184601.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "obantu1",
+  "password": "1234"}
+
+<> 2024-04-14T184454.201.json
+
+###
+
+POST http://localhost:9009/api/NoteManagement/register
+Content-Type: application/json
+Content-Length: 103
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstName": "Elusoji",
+  "lastName": "Timileyin",
+  "username": "obantu1",
+  "password": "1234"
+}
+
+<> 2024-04-14T184350.201.json
+
+###
+
+PATCH http://localhost:9009/api/NoteManagement/login
+Content-Type: application/json
+Content-Length: 47
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "obantu",
+  "password": "123"
+}
+
+<> 2024-04-14T184217.400.json
+
+###
+

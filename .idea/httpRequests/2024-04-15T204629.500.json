@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-04-15T19:46:29.830+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/NoteManagement/users/value"
+}
